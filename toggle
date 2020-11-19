@@ -1,0 +1,15 @@
+<style>
+.dis0{
+	display:none;
+}
+</style>
+<script>
+$(function(){
+	$(".view_dis0").click(function(){
+		$(".dis0").toggle(1000);
+	})
+})
+
+toggle(), slideToggle()
+
+속도는 숫자로 하거나 "fast", "slow"
